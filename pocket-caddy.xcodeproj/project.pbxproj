@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73A1A1FC28760BDE00B0AD65 /* pocket_caddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1A1FB28760BDE00B0AD65 /* pocket_caddyApp.swift */; };
+		73A1A1FE28760BDE00B0AD65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1A1FD28760BDE00B0AD65 /* ContentView.swift */; };
+		73A1A20028760BDF00B0AD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A1A1FF28760BDF00B0AD65 /* Assets.xcassets */; };
+		73A1A20328760BDF00B0AD65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A1A20228760BDF00B0AD65 /* Preview Assets.xcassets */; };
+		73A1A20D28760BDF00B0AD65 /* pocket_caddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1A20C28760BDF00B0AD65 /* pocket_caddyTests.swift */; };
+		73A1A21728760BDF00B0AD65 /* pocket_caddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1A21628760BDF00B0AD65 /* pocket_caddyUITests.swift */; };
+		73A1A21928760BDF00B0AD65 /* pocket_caddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A1A21828760BDF00B0AD65 /* pocket_caddyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73A1A20928760BDF00B0AD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A1A1F028760BDD00B0AD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73A1A1F728760BDE00B0AD65;
+			remoteInfo = "pocket-caddy";
+		};
+		73A1A21328760BDF00B0AD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A1A1F028760BDD00B0AD65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73A1A1F728760BDE00B0AD65;
+			remoteInfo = "pocket-caddy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73A1A1F828760BDE00B0AD65 /* pocket-caddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pocket-caddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A1A1FB28760BDE00B0AD65 /* pocket_caddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_caddyApp.swift; sourceTree = "<group>"; };
+		73A1A1FD28760BDE00B0AD65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73A1A1FF28760BDF00B0AD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73A1A20228760BDF00B0AD65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73A1A20828760BDF00B0AD65 /* pocket-caddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocket-caddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A1A20C28760BDF00B0AD65 /* pocket_caddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_caddyTests.swift; sourceTree = "<group>"; };
+		73A1A21228760BDF00B0AD65 /* pocket-caddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocket-caddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A1A21628760BDF00B0AD65 /* pocket_caddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_caddyUITests.swift; sourceTree = "<group>"; };
+		73A1A21828760BDF00B0AD65 /* pocket_caddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pocket_caddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73A1A1F528760BDE00B0AD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A1A20528760BDF00B0AD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A1A20F28760BDF00B0AD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73A1A1EF28760BDD00B0AD65 = {
+			isa = PBXGroup;
+			children = (
+				73A1A1FA28760BDE00B0AD65 /* pocket-caddy */,
+				73A1A20B28760BDF00B0AD65 /* pocket-caddyTests */,
+				73A1A21528760BDF00B0AD65 /* pocket-caddyUITests */,
+				73A1A1F928760BDE00B0AD65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73A1A1F928760BDE00B0AD65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73A1A1F828760BDE00B0AD65 /* pocket-caddy.app */,
+				73A1A20828760BDF00B0AD65 /* pocket-caddyTests.xctest */,
+				73A1A21228760BDF00B0AD65 /* pocket-caddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73A1A1FA28760BDE00B0AD65 /* pocket-caddy */ = {
+			isa = PBXGroup;
+			children = (
+				73A1A1FB28760BDE00B0AD65 /* pocket_caddyApp.swift */,
+				73A1A1FD28760BDE00B0AD65 /* ContentView.swift */,
+				73A1A1FF28760BDF00B0AD65 /* Assets.xcassets */,
+				73A1A20128760BDF00B0AD65 /* Preview Content */,
+			);
+			path = "pocket-caddy";
+			sourceTree = "<group>";
+		};
+		73A1A20128760BDF00B0AD65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73A1A20228760BDF00B0AD65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73A1A20B28760BDF00B0AD65 /* pocket-caddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				73A1A20C28760BDF00B0AD65 /* pocket_caddyTests.swift */,
+			);
+			path = "pocket-caddyTests";
+			sourceTree = "<group>";
+		};
+		73A1A21528760BDF00B0AD65 /* pocket-caddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73A1A21628760BDF00B0AD65 /* pocket_caddyUITests.swift */,
+				73A1A21828760BDF00B0AD65 /* pocket_caddyUITestsLaunchTests.swift */,
+			);
+			path = "pocket-caddyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73A1A1F728760BDE00B0AD65 /* pocket-caddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A1A21C28760BDF00B0AD65 /* Build configuration list for PBXNativeTarget "pocket-caddy" */;
+			buildPhases = (
+				73A1A1F428760BDE00B0AD65 /* Sources */,
+				73A1A1F528760BDE00B0AD65 /* Frameworks */,
+				73A1A1F628760BDE00B0AD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pocket-caddy";
+			productName = "pocket-caddy";
+			productReference = 73A1A1F828760BDE00B0AD65 /* pocket-caddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73A1A20728760BDF00B0AD65 /* pocket-caddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A1A21F28760BDF00B0AD65 /* Build configuration list for PBXNativeTarget "pocket-caddyTests" */;
+			buildPhases = (
+				73A1A20428760BDF00B0AD65 /* Sources */,
+				73A1A20528760BDF00B0AD65 /* Frameworks */,
+				73A1A20628760BDF00B0AD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73A1A20A28760BDF00B0AD65 /* PBXTargetDependency */,
+			);
+			name = "pocket-caddyTests";
+			productName = "pocket-caddyTests";
+			productReference = 73A1A20828760BDF00B0AD65 /* pocket-caddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73A1A21128760BDF00B0AD65 /* pocket-caddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A1A22228760BDF00B0AD65 /* Build configuration list for PBXNativeTarget "pocket-caddyUITests" */;
+			buildPhases = (
+				73A1A20E28760BDF00B0AD65 /* Sources */,
+				73A1A20F28760BDF00B0AD65 /* Frameworks */,
+				73A1A21028760BDF00B0AD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73A1A21428760BDF00B0AD65 /* PBXTargetDependency */,
+			);
+			name = "pocket-caddyUITests";
+			productName = "pocket-caddyUITests";
+			productReference = 73A1A21228760BDF00B0AD65 /* pocket-caddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73A1A1F028760BDD00B0AD65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					73A1A1F728760BDE00B0AD65 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					73A1A20728760BDF00B0AD65 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 73A1A1F728760BDE00B0AD65;
+					};
+					73A1A21128760BDF00B0AD65 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 73A1A1F728760BDE00B0AD65;
+					};
+				};
+			};
+			buildConfigurationList = 73A1A1F328760BDD00B0AD65 /* Build configuration list for PBXProject "pocket-caddy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73A1A1EF28760BDD00B0AD65;
+			productRefGroup = 73A1A1F928760BDE00B0AD65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73A1A1F728760BDE00B0AD65 /* pocket-caddy */,
+				73A1A20728760BDF00B0AD65 /* pocket-caddyTests */,
+				73A1A21128760BDF00B0AD65 /* pocket-caddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73A1A1F628760BDE00B0AD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A1A20328760BDF00B0AD65 /* Preview Assets.xcassets in Resources */,
+				73A1A20028760BDF00B0AD65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A1A20628760BDF00B0AD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A1A21028760BDF00B0AD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73A1A1F428760BDE00B0AD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A1A1FE28760BDE00B0AD65 /* ContentView.swift in Sources */,
+				73A1A1FC28760BDE00B0AD65 /* pocket_caddyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A1A20428760BDF00B0AD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A1A20D28760BDF00B0AD65 /* pocket_caddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A1A20E28760BDF00B0AD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A1A21928760BDF00B0AD65 /* pocket_caddyUITestsLaunchTests.swift in Sources */,
+				73A1A21728760BDF00B0AD65 /* pocket_caddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73A1A20A28760BDF00B0AD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73A1A1F728760BDE00B0AD65 /* pocket-caddy */;
+			targetProxy = 73A1A20928760BDF00B0AD65 /* PBXContainerItemProxy */;
+		};
+		73A1A21428760BDF00B0AD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73A1A1F728760BDE00B0AD65 /* pocket-caddy */;
+			targetProxy = 73A1A21328760BDF00B0AD65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73A1A21A28760BDF00B0AD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73A1A21B28760BDF00B0AD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73A1A21D28760BDF00B0AD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pocket-caddy/Preview Content\"";
+				DEVELOPMENT_TEAM = XHMU3NR747;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.pocket-caddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73A1A21E28760BDF00B0AD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pocket-caddy/Preview Content\"";
+				DEVELOPMENT_TEAM = XHMU3NR747;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.pocket-caddy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73A1A22028760BDF00B0AD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XHMU3NR747;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.pocket-caddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocket-caddy.app/pocket-caddy";
+			};
+			name = Debug;
+		};
+		73A1A22128760BDF00B0AD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XHMU3NR747;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.pocket-caddyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocket-caddy.app/pocket-caddy";
+			};
+			name = Release;
+		};
+		73A1A22328760BDF00B0AD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XHMU3NR747;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.pocket-caddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pocket-caddy";
+			};
+			name = Debug;
+		};
+		73A1A22428760BDF00B0AD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XHMU3NR747;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.pocket-caddyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pocket-caddy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73A1A1F328760BDD00B0AD65 /* Build configuration list for PBXProject "pocket-caddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A1A21A28760BDF00B0AD65 /* Debug */,
+				73A1A21B28760BDF00B0AD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A1A21C28760BDF00B0AD65 /* Build configuration list for PBXNativeTarget "pocket-caddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A1A21D28760BDF00B0AD65 /* Debug */,
+				73A1A21E28760BDF00B0AD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A1A21F28760BDF00B0AD65 /* Build configuration list for PBXNativeTarget "pocket-caddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A1A22028760BDF00B0AD65 /* Debug */,
+				73A1A22128760BDF00B0AD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A1A22228760BDF00B0AD65 /* Build configuration list for PBXNativeTarget "pocket-caddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A1A22328760BDF00B0AD65 /* Debug */,
+				73A1A22428760BDF00B0AD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73A1A1F028760BDD00B0AD65 /* Project object */;
+}
